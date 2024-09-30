@@ -1,3 +1,4 @@
+#If error happens may be due to sh file on the action generator doesn't have the right permission, fixed by: go to the code space of the generator, open terminal and enter chmod -R 775 entrypoint.sh
 name: Generate Podcast Feed
 on: [push]
 jobs: 
